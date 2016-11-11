@@ -42,7 +42,7 @@
     <string name="root_appops_summary">View and control the root rules</string>
 
     <!-- About phone screen, CyanogenMod version -->
-    <string name="mod_version">CyanogenMod version</string>
+    <string name="mod_version">HadesROM version</string>
     <string name="mod_version_default">Unknown</string>
 
     <!-- About phone screen, CyanogenMod Api Level -->
@@ -54,7 +54,7 @@
     <string name="build_date_default">2015-01-01-0000</string>
 
     <!-- CM Updater -->
-    <string name="cmupdate_settings_title">CyanogenMod updates</string>
+    <string name="cmupdate_settings_title">HadesROM updates</string>
 
     <!-- Names of categories of app ops tabs - extension of AOSP -->
     <string name="app_ops_categories_location">Location</string>
