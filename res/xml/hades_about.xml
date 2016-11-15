@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About TeamHades, sources...forums...etc...-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:title="@string/about_ns_settings_title" >
+
+    <!-- Share ROM -->
+         <Preference
+             android:key="share"
+             android:title="@string/share_ns" />
+                
+    <PreferenceCategory
+        android:key="links"
+        android:title="@string/ns"> 
+        <!-- sources github -->
+        <Preference
+            android:key="ns_source"
+            android:title="@string/ns_source_title"
+            android:summary="@string/ns_source_summary" />
+        <!-- Pagina para donaciones --> 
+        <Preference
+            android:key="ns_donate"
+            android:title="@string/ns_donate"
+            android:summary="@string/ns_donate_summary" />
+                            
+     </PreferenceCategory>
+
+     <PreferenceCategory
+        android:key="sourcebase"
+        android:title="@string/sourcebase_title">
+                
+        <Preference
+            android:key="ns_sourcebase"
+            android:title="@string/ns_sourcebase"
+            android:summary="@string/ns_sourcebase_sumary" />
+
+    </PreferenceCategory>
+        <!-- Team Hades -->     
+    <PreferenceCategory
+        android:key="teamhades"
+        android:title="@string/hades" 
+        android:layout="@layout/hadesabout">
+    </PreferenceCategory>
+
+        <PreferenceCategory
+            android:key="devs"
+            android:title="@string/devs_title">
+  
+            <PreferenceScreen android:key="Silvered"
+            android:title="@string/Silvered" />
+            <PreferenceScreen android:key="Lupettohf"
+            android:title="@string/Lupettohf" />         
+        
+        </PreferenceCategory>            
+</PreferenceScreen>

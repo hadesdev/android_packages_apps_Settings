@@ -15,7 +15,27 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+	<!-- About HadesROM -->
+    <string name="about_ns_settings_title">HadesROM</string>
+    <string name="share_ns">Tutto su HadesROM</string>
+    <string name="ns_donate">Effettua una donazione al team Hades</string>
+    <string name="ns_donate_summary">Grazie del supporto!</string>
+    <string name="github_tn">https://github.com/Silvered99</string>
+    <string name="ns">Links</string>
+    <string name="ns_kernel_title">Kernel Website</string>
+    <string name="ns_kernel_summary">Ulteriori informazioni</string>
+    <string name="ns_forum_summary">Consulta las ultimas descargas</string>
+    <string name="ns_source_title">Github</string>
+    <string name="ns_source_summary">Sorgenti HadesROM</string>
+    <string name="sourcebase_title">Sorgenti base</string>
+    <string name="team_nuclear">Membri del team Hades</string>
+    <string name="Silvered">Silvered</string>
+    <string name="Lupettohf">Lupettohf</string>
+    <string name="devs_title">Devs</string>
+    <string name="ns_sourcebase">CyanogenMod</string>
+    <string name="ns_sourcebase_sumary">https://github.com/CyanogenMod</string>
+	
+	<!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
