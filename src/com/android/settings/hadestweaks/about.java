@@ -78,9 +78,9 @@ private static final String NS_ROM_SHARE = "share";
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mSourceUrl) {
-            launchUrl("https://github.com/OneRomOne");
+            launchUrl("https://github.com/hadesdev");
         } else if (preference == mDonateUrl) {
-            launchUrl("http://paypal.me/TeamNuclear");
+            launchUrl("http://paypal.me/SimoneSilvestri");
         } else if (preference == mSourcebaseUrl) {
             launchUrl("https://github.com/CyanogenMod");
         }  else if (preference.getKey().equals(NS_ROM_SHARE)) {
