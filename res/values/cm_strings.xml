@@ -189,7 +189,17 @@
     <string name="double_tap_ls">Double Tap Sleep LockScreen</string>
     <string name="double_tap_ls_summary">Double tap on the top third or the bottom shortcut area to sleep</string>
 	
-	    <!-- Heads Up Snooze -->
+	<!-- Heads Up Timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Notification will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+	
+	<!-- Heads Up Snooze -->
     <string name="heads_up_snooze">Snooze</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
     <string name="heads_up_snooze_summary">Swiping up on the heads up notification will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
