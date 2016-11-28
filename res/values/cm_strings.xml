@@ -273,6 +273,11 @@
     <string name="mod_version">HadesROM version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <!-- About phone screen, Device model -->
+    <string name="device_model">Device model</string>
+    <!-- About phone screen, Device name -->
+    <string name="device_name">Device name</string>
+
     <!-- About phone screen, CyanogenMod Api Level -->
     <string name="mod_api_level">CyanogenMod API level</string>
     <string name="mod_api_level_default">Unknown</string>
@@ -471,6 +476,12 @@
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- Whether the keyguard will directly show the password entry -->
+    <string name="lock_directly_show_password">Directly show password entry</string>
+    <!-- Whether the keyguard will directly show the pattern view -->
+    <string name="lock_directly_show_pattern">Directly show pattern view</string>
+    <!-- Whether the keyguard will directly show the PIN entry -->
+    <string name="lock_directly_show_pin">Directly show PIN entry</string>
 
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
@@ -520,7 +531,7 @@
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to wake-ups triggered by gestures</string>
 
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
